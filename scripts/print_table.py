@@ -101,7 +101,7 @@ def clean_row_for_display(row: dict) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(description="Print the first N rows of a table.")
-    parser.add_argument("--table", default=os.getenv("TABLE_NAME", "payments"), help="Name of table to query")
+    parser.add_argument("--table", default=os.getenv("TABLE_NAME", "payments_stats"), help="Name of table to query")
     parser.add_argument("--limit", type=int, default=int(os.getenv("ROW_LIMIT", "5")), help="Number of rows to fetch")
     args = parser.parse_args()
 
