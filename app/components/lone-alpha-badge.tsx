@@ -4,7 +4,7 @@ export default function LoneAlphaBadge({ className = "" }: { className?: string 
   return (
     <div className={`flex justify-center items-center ${className}`}>
       <a
-        href="https://www.linkedin.com/in/malik-saad-ahmed-93404a318/"
+        href="https://malik-saad-ahmed-awan.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
         title="Voir le profil LinkedIn de Saad Ahmed — LoneAlpha"
